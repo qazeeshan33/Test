@@ -1,0 +1,15 @@
+{
+    "Test" : [
+        {
+            "url": "https://qa-aws.veemed.com/veedoc/#/login",
+          "email": "rahim@veemed.com",
+          "pass": "Test@12345"
+        },
+        {
+            "url": "https://qa-aws.veemed.com/veedoc/#/login",
+          "email": "rahim@veemed.com",
+          "pass": "Test@12345"
+        }
+    ]
+  }
+  

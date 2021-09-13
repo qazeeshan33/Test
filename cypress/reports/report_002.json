@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-08T07:35:36.219Z",
+    "end": "2021-09-08T07:35:51.088Z",
+    "duration": 14869,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d6245a8c-ab79-4e85-9d69-374b6c9ed404",
+      "title": "",
+      "fullFile": "cypress/integration/Sample.js",
+      "file": "cypress/integration/Sample.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "41d201e5-be8c-4121-8845-06e01b7d84ff",
+          "title": "VeeDoc Application",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "VeeDoc Login",
+              "fullTitle": "VeeDoc Application VeeDoc Login",
+              "timedOut": null,
+              "duration": 11120,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://qa-aws.veemed.com/admin/#/login'); //         testData.forEach((credentials) => {\n// cy.visit(credentials.url)\n//cy.log('There are ${this.gifts.GiftCards} .')\nconst gCards = this.gifts.Test;\ncy.get(gCards).each(giftobject => {\n  cy.get(':nth-child(1) > .vm-input').type(giftobject.email);\n  cy.get(':nth-child(2) > .vm-input').type(giftobject.pass);\n  cy.get('.text-center > .btn-vm-auth').click(); //Write all your business logic test case code here.\n  cy.get('.navbar-toggler').click(); //Write all your business logic test case code here.\n  cy.get('.icon_vm_logout').click(); //Write all your business logic test case code here.\n  // cy.get('.navbar-toggler').click()\n  // cy.get('.icon_vm_partner_site').click()\n  // cy.get('.navbar-toggler').click()\n  // // check value presence anywhere in the table\n  // cy.get('table[class=\"table soc-table\"]').contains('td', 'AAA Hospital').should('be.visible')\n  // // check value presence in the specific row & column\n  // cy.get('table[class=\"table soc-table\"]>tbody>tr:nth-child(1) td:nth-child(2)').contains('AAA Hospital').should('be.visible')\n  // // verify the state name 'AAA hospital' whose decriptiin is 'AAA Hospital'\n  // cy.get('table[class=\"table soc-table\"]>tbody>tr td:nth-child(2)').each(($e, index, $list) =>{\n  //     const text=$e.text()\n  //     if(text.includes('AAA Hospital'))\n  //     {\n  //         cy.get('table[class=\"table soc-table\"]>tbody>tr td:nth-child(3)').eq(index).then(function(nameqw){\n  // const bookname= nameqw.text()\n  // expect(bookname).to.equal(\"Alaska\")  \n  // })\n  //     }\n  // })\n  //     })\n});",
+              "err": {},
+              "uuid": "e30bf2aa-6ed2-49db-8414-185e8ea23022",
+              "parentUUID": "41d201e5-be8c-4121-8845-06e01b7d84ff",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e30bf2aa-6ed2-49db-8414-185e8ea23022"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11120,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
